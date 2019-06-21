@@ -1,10 +1,10 @@
 import Link from 'next/link';
+import Header from '../components/Header';
+
 const Home = () =>{
     return(
         <div>
-            <Link href="/about">
-                <button>Go to about page</button>
-            </Link>
+            <Header />           
             <h2>Welcome to Next.JS</h2>         
         </div>
         
