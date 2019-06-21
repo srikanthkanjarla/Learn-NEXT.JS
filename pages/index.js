@@ -1,11 +1,11 @@
-import Link from 'next/link';
-import Header from '../components/Header';
+ import Layout from '../components/MyLayout';
 
 const Home = () =>{
     return(
         <div>
-            <Header />           
-            <h2>Welcome to Next.JS</h2>         
+            <Layout>
+              <h2>Welcome to Next.JS</h2>         
+            </Layout>            
         </div>
         
     )
