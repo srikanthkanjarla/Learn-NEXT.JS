@@ -16,6 +16,12 @@ app
         app.render(req, res, actualPage, queryParams);
       });
 
+    server.get('sid/:id',(req,res) =>{
+          const actualPage = '/show';
+          const queryParams = {id:req.params.id};
+          app.render(req,res,actualPage,queryParams);
+      });
+
     server.get('*', (req, res) => {
       return handle(req, res);
     });
