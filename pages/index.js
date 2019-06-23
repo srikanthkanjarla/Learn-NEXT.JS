@@ -16,7 +16,29 @@ const Home = (props) =>{
                       </Link>
                   </li>))}
                   </ul>         
-            </Layout>            
+            </Layout>
+            <style jsx>{`
+            h2{
+                color:#ff0088;
+            }
+            ul{
+                padding:0;
+            }
+            li{
+                list-style-type:none;
+                margin:8px;
+            }
+            a{
+                text-decoration:none;
+                color:blue;
+            }
+            a:hover{
+                opacity:0.7;
+                color:#ff0088;
+            }
+
+
+            `}</style>            
         </div>
         
     )

@@ -1,7 +1,10 @@
 import Link from 'next/link';
 
 const linkStyle ={
-    marginRight:15
+    marginRight:15,
+    textDecoration:'none',
+    color:'#ff0088',
+    fontSize:'18px'
 }
 
 const Header = () =>(
